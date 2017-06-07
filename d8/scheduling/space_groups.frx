@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY nbsp "&#160;">
+        ]>
+<html xmlns:frx="urn:FrxReports">
+<head>
+    <title>Scheduling Introduction</title>
+    <frx:category></frx:category>
+    <frx:options hidden="1"></frx:options>
+    <frx:fields>
+        <frx:field id="grouping_code" link="scheduling/desk/{app.center_code}/space-group-view?grouping_code={grouping_code}" class="use-ajax"></frx:field>
+    </frx:fields>
+    <frx:menu/>
+</head>
+<body>
+<div class="scheduling_spaces">
+    <div class="scroll-list" frx:block="banner/reserved/space_groups">
+        <ul class="space-groups-list">
+            <li frx:foreach="*">
+                {grouping_code}
+
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

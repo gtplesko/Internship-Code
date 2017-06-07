@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY nbsp "&#160;">
+        ]>
+<html xmlns:frx="urn:FrxReports">
+<head>
+    <title>Scheduling Introduction</title>
+    <frx:category></frx:category>
+    <frx:options hidden="1"></frx:options>
+    <frx:fields>
+        <frx:field id="add-new" link="scheduling/center-add" class="use-ajax button">Add Center</frx:field>
+        <frx:field id="title" link="scheduling/desk/{center_code}/space-groups"></frx:field>
+    </frx:fields>
+    <frx:menu/>
+</head>
+<body>
+<div class="scheduling_spaces">
+    {add-new}
+    <div class="scroll-list" frx:block="banner/reserved/centers">
+
+        <ul>
+            <li frx:foreach="*">
+                {title}
+
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

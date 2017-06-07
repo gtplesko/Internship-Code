@@ -1,0 +1,45 @@
+-
+    space_code: "LIB 2612"
+    title: "Fancy LIB 2612"
+    campus_code: "OLY"
+    building_code: "LIB"
+    floor_number: 2
+    space_type: "COMP LAB"
+    capacity: 25
+    inactive_ind: "n"
+-
+    space_code: "LIB 2610"
+    title: "Fancy LIB 2610"
+    campus_code: "OLY"
+    building_code: "LIB"
+    floor_number: 2
+    space_type: "COMP LAB"
+    capacity: 25
+    inactive_ind: "n"
+-
+    space_code: "LIB 2617"
+    title: "Fancy LIB 2617"
+    campus_code: "OLY"
+    building_code: "LIB"
+    floor_number: 2
+    space_type: "COMP LAB"
+    capacity: 25
+    inactive_ind: "n"
+-
+    space_code: "LIB 2619"
+    title: "Fancy LIB 2619"
+    campus_code: "OLY"
+    building_code: "LIB"
+    floor_number: 2
+    space_type: "COMP LAB"
+    capacity: 25
+    inactive_ind: "n"
+-
+    space_code: "JAN SHED"
+    title: "Janitor's Shed"
+    campus_code: "GRH"
+    building_code: "JS"
+    floor_number: 1
+    space_type: "SHED"
+    capacity: 3
+    inactive_ind: "n"

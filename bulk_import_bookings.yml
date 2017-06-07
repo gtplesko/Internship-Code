@@ -1,0 +1,30 @@
+-
+  booking_id:
+  activity_id: 123
+  space_code: 'Lib 2612'
+  start_time: '11/11/2011'
+  end_time: '12/12/2012'
+-
+  booking_id:
+  activity_id: 1233
+  space_code: 'Lib 26123'
+  start_time: '11/11/2013'
+  end_time: '12/12/2014'
+-
+  booking_id:
+  activity_id: 124
+  space_code: 'Lib 26124'
+  start_time: '11/11/2014'
+  end_time: '12/12/2015'
+-
+  booking_id:
+  activity_id: 125
+  space_code: 'Lib 2615'
+  start_time: '11/11/2015'
+  end_time: '12/12/2016'
+-
+  booking_id:
+  activity_id: 126
+  space_code: 'Lib 26126'
+  start_time: '11/11/2016'
+  end_time: '12/12/2017'

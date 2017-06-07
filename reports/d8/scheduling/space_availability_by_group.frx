@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY nbsp "&#160;">
+        ]>
+<html xmlns:frx="urn:FrxReports">
+<head>
+    <title>Scheduling Introduction</title>
+    <frx:category></frx:category>
+    <frx:options hidden="1"></frx:options>
+    <frx:fields>
+    </frx:fields>
+    <frx:menu/>
+</head>
+<body>
+<div class="scheduling_spaces">
+    <div class="scroll-list" frx:block="banner/reserved/space_availability_by_group">
+        <ul class="space-groups-space-list">
+            <li class="space-group-entry" frx:foreach="*">
+                <div class="left-2-7">{title}</div>
+                <div class="right-3-7"><em>Space Time Info Goes here</em></div>
+
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

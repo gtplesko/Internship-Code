@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+    <!ENTITY nbsp "&#160;">
+    ]>
+<html xmlns:frx="urn:FrxReports">
+<head>
+  <frx:category></frx:category>
+  <frx:options hidden="1" ></frx:options>
+  <frx:fields>
+    <frx:field id="app.scheduling_menu" format="xhtml"/>
+    <frx:field id="app.scheduling_details" format="xhtml"/>
+    <frx:field id="app.scheduling_header" format="xhtml"/>
+    <frx:field id="app.nav" format="xhtml"/>
+  </frx:fields>
+  <frx:menu/>
+</head>
+<body>
+<h2 frx:renderer="FrxTitle" id="frx-frxtitle">{app.title}</h2>
+{app.nav}
+  <div id="scheduling_dashboard">
+
+    <div id="scheduling_menu" class="left-2-7">
+      {app.scheduling_menu}
+    </div>
+    <div id="scheduling_header" class="right-5-7">
+      {app.scheduling_header}
+    </div>
+    <div id="scheduling_details" class="right-5-7">
+      {app.scheduling_details}
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY nbsp "&#160;">
+        ]>
+<html xmlns:frx="urn:FrxReports">
+<head>
+    <title>Scheduling Introduction</title>
+    <frx:category></frx:category>
+    <frx:options hidden="1"></frx:options>
+    <frx:fields>
+        <frx:field id="title" link="scheduling/admin/{app.center_code}/space-view?space_code={space_code}" class="use-ajax"></frx:field>
+        <frx:field id="add-new" link="scheduling/admin/{app.center_code}/space-add" class="use-ajax button">Add Space</frx:field>
+    </frx:fields>
+    <frx:menu/>
+</head>
+<body>
+<div class="scheduling_spaces">
+    {add-new}
+    <div class="scroll-list" frx:block="banner/reserved/spaces">
+        <ul class="space-list">
+            <li frx:foreach="*">
+                {title}
+
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

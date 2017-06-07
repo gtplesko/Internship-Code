@@ -1,0 +1,30 @@
+-
+  prof_code: 'BANG'
+  title: 'Headbanging'
+  center_code: 'FACILITIES'
+  inactive_ind: 'N'
+  sort_order: 1
+-
+  prof_code: 'HEEL'
+  title: 'Use of Heelie skates'
+  center_code: 'FACILITIES'
+  inactive_ind: 'Y'
+  sort_order: 4
+-
+  prof_code: 'YOGA'
+  title: 'Yoga with Richard'
+  center_code: 'FACILITIES'
+  inactive_ind: 'N'
+  sort_order: 101
+-
+  prof_code: 'GRAND'
+  title: 'Grand Pianing'
+  center_code: 'FACILITIES'
+  inactive_ind: 'N'
+  sort_order: 9001
+-
+  prof_code: 'CLK'
+  title: 'Ability to read analog clock'
+  center_code: 'FACILITIES'
+  inactive_ind: 'Y'
+  sort_order: 44

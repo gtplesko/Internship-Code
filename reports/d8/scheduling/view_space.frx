@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY nbsp "&#160;">
+        ]>
+<html xmlns:frx="urn:FrxReports">
+<head>
+    <title>Scheduling Introduction</title>
+    <frx:category></frx:category>
+    <frx:options hidden="1"></frx:options>
+    <frx:fields>
+        <frx:field id="edit-space" link="scheduling/admin/{app.center_code}/space-edit?space_code={space_code}" class="use-ajax button">Edit Space</frx:field>
+    </frx:fields>
+    <frx:menu/>
+</head>
+<body>
+
+<div class="scheduling_spaces">
+    <div frx:block="banner/reserved/view_space" frx:foreach="*">
+        <h2>{title}</h2>
+        <label>Campus Code: </label><p>{campus_code}</p>
+        <label>Building Code: </label><p>{building_code}</p>
+        <label>Space Code: </label><p>{space_code}</p>
+        <label>Space Type: </label><p>{space_type}</p>
+        <label>Floor: </label><p>{floor_number}</p>
+        <label>Capacity: </label><p>{capacity}</p>
+        <label>Grouping Code: </label><p>{grouping_code}</p>
+        <label>Inactive Indicator: </label><p>{inactive_ind}</p>
+
+        {edit-space}
+    </div>
+</div>
+</body>
+</html>

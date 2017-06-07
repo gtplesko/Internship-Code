@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY nbsp "&#160;">
+        ]>
+<html xmlns:frx="urn:FrxReports">
+<head>
+    <title>Proficiency Overview</title>
+    <frx:category></frx:category>
+    <frx:options hidden="1"></frx:options>
+    <frx:fields>
+
+    </frx:fields>
+    <frx:menu/>
+</head>
+<body>
+
+<div class="scheduling_spaces">
+    <h2>Oh no!</h2>
+    <p>The proficiency overview information you seek is in another castle.</p>
+    <pre>
+                   /\         /\
+                 (^()^)     (^()^)
+        __       /^/\^\     /^/\^\      __
+     __:  |     / /  \ \   / /  \ \    |  :__
+    |  :__|     |^^^^^^|   |^^^^^^|    |__:  |
+    |__:  |     \/\/\/\/   \/\/\/\/    |  :__|
+         / \    |  __  |   |  __  |   / \
+        /   \   | |__| |   | |__| |  /   \
+       /_____\  |      |   |      | /_____\
+       |     |==  ==  ==  ==  ==  ==|     |
+      ~|  _  | |__||__||__||__||__| |  _  |~
+     ~~| | | |                      | | | |~~
+    ~~~| |=| |   __           __    | |=| |~~~
+    ~~~|     |  |  |    __   |  |   |     |~~~
+    ~~~|     |  |==|   |::|  |==|   |     |~~~
+    ~~~|     |         |::|         |     |~~~
+     ~~|_____|_________|::|_________|_____|~~
+      ~~~~~~~~~~~~~~~~~++++~~~~~~~~~~~~~~~~~
+         ~~~~~~~~~~~~~~++++~~~~~~~~~~~~~~~
+            ~~~~~~~~~~~++++~~~~~~~~~~~
+                ~~~~~~++++++~~~~~~
+                 ~~~~~++++++~~~~
+                      ++++++</pre>
+</div>
+</body>
+</html>

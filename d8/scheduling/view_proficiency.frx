@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+        <!ENTITY nbsp "&#160;">
+        ]>
+<html xmlns:frx="urn:FrxReports">
+    <head>
+        <title>View Proficiency</title>
+        <frx:category></frx:category>
+        <frx:options hidden="1"></frx:options>
+        <frx:fields>
+            <frx:field id="edit-proficiency" link="scheduling/admin/{app.center_code}/proficiency-edit?prof_code={prof_code}" class="use-ajax button">Edit Space</frx:field>
+        </frx:fields>
+        <frx:menu/>
+    </head>
+    <body>
+
+        <div class="scheduling_spaces">
+            <div frx:block="banner/reserved/view_proficiency" frx:foreach="*">
+                <h2>{title}</h2>
+                <label>Proficiency Code: </label><p>{prof_code}</p>
+                <label>Center Code: </label><p>{center_code}</p>
+                <label>Inactive: </label><p>{inactive_ind}</p>
+                <label>Sort Order: </label><p>{sort_order}</p>
+
+                {edit-proficiency}
+            </div>
+        </div>
+    </body>
+</html>
