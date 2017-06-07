@@ -1,0 +1,5 @@
+name: "Reserve Ed"
+description: Space Scheduling and management application.
+package: Evergreen
+type: module
+core: 8.x

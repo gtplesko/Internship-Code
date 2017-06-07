@@ -1,0 +1,8 @@
+scheduling:
+  version: 8.x
+  css:
+    component:
+      css/scheduling.css: {}
+  dependencies:
+    - core/jquery
+    - e/ajax

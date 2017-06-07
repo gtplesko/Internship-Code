@@ -1,0 +1,33 @@
+reserved.scheduling-dashboard:
+  path: 'scheduling/{action}'
+  defaults:
+    _controller:  '\Drupal\reserved\Controller\Dashboard::page'
+    _title: 'Scheduling Dashboard'
+    action: ""
+  requirements:
+    _banner_access: 'TESC_WS_ADMIN'
+
+reserved.scheduling-center-dashboard:
+  path: 'scheduling/desk/{center_code}/{action}'
+  defaults:
+    _controller:  '\Drupal\reserved\Controller\CenterDash::dashboard'
+    _title: 'Scheduling Dashboard'
+    action: ""
+    center_code: ""
+  requirements:
+    _banner_access: 'TESC_WS_ADMIN'
+
+reserved.scheduling-center-dashboard-admin:
+  path: 'scheduling/admin/{center_code}/{action}'
+  defaults:
+    _controller:  '\Drupal\reserved\Controller\CenterDashAdmin::dashboard'
+    _title: 'Scheduling Dashboard'
+    action: ""
+    center_code: ""
+  requirements:
+    _banner_access: 'TESC_WS_ADMIN'
+
+
+
+
+

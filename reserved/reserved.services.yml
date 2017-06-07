@@ -1,0 +1,4 @@
+services:
+  tas.reserved:
+    class: Drupal\reserved\ReservEdService
+    factory: Drupal\reserved\ReservEdService::service
